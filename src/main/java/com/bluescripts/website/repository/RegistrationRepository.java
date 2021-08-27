@@ -1,0 +1,11 @@
+package com.bluescripts.website.repository;
+
+import com.bluescripts.website.entity.Registration;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RegistrationRepository extends JpaRepository<Registration, Integer> {
+
+
+}
